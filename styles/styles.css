@@ -1,0 +1,273 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+p {
+  line-height: 30px;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+/* Section hello */
+.section-hello {
+  background-image: url(../images/backgrounds/hello.jpg);
+  -webkit-background-size: cover;
+  background-position: 45% 0%;
+  background-repeat: no-repeat;
+
+  padding-top: 10px;
+  padding-bottom: 150px;
+}
+
+.hello-top {
+  padding-bottom: 200px;
+}
+
+.hello-logo {
+  padding-top: 30px;
+  max-width: 30%;
+  height: auto;
+}
+
+.hello-navbar {
+  padding-top: 40px;
+
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+
+  background-color: transparent;
+  border-bottom: 0px;
+}
+
+.hello-navbar ul li a {
+  color: #fff;
+}
+
+.hello-navbar ul li a:hover {
+  color: #30788b;
+  background-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .hello-logo {
+    margin: 0 auto;
+  }
+
+  .hello-navbar {
+    left: 0;
+  }
+}
+
+.hello-pre {
+  margin: 0;
+  font-family: "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 42px;
+  margin-bottom: -20px;
+  color: #dddddd;
+}
+
+.hello-head {
+  margin: 0;
+  color: #fff;
+  padding-top: 0;
+  padding-bottom: 40px;
+  font-size: 100px;
+  font-weight: 700;
+}
+
+/* Section features */
+.section-features {
+  padding: 100px 0;
+}
+
+.features-image {
+  transition: all .3s;
+  padding: 30px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 3px solid #000;
+}
+
+.features-image .fa {
+  font-size: 60px;
+  width: 60px;
+  height: 60px;
+  color: #30788b;
+}
+
+.features-block:hover .features-image {
+  background-color: #30788b;
+}
+
+.features-block:hover .features-image .fa {
+  color: #fff;
+}
+
+.features-block h2 {
+  transition: all .3s;
+}
+
+.features-block:hover h2 {
+  color: #30788b;
+}
+
+.features-block h2 {
+  margin-bottom: 0;
+}
+
+.features-block p {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.features-line {
+  margin: auto;
+  margin-bottom: 10px;
+  height: 1px;
+  width: 90px;
+  color: red;
+  background-color: red;
+  transition: all .3s;
+}
+
+.features-block:hover .features-line {
+  width: 150px;
+}
+
+/* Section intro */
+.section-intro {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f7f7f7;
+}
+
+@media (min-width: 991px) {
+  .section-intro {
+    padding-bottom: 0;
+  }
+}
+
+.intro-text > h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.intro-text > p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.intro-line {
+  margin-bottom: 10px;
+  height: 1px;
+  width: 90px;
+  color: red;
+  background-color: red;
+}
+
+.intro-image {
+  background-image: url(../images/backgrounds/iphone.jpg);
+  background-repeat: no-repeat;
+
+  max-width: 450px;
+  height: 600px;
+}
+
+/* Section opinion */
+.section-opinion {
+  background-image: url(../images/backgrounds/city.jpg);
+  -webkit-background-size: cover;
+  background-position: 45% 65%;
+  background-repeat: no-repeat;
+
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.opinion-pic {
+  padding-bottom: 20px;
+}
+
+.opinion-pic > img {
+  max-width: 125px;
+  border: 5px solid #748184;
+  border-radius: 50%;
+}
+
+.opinion-text * {
+  color: #748184;
+  font-weight: 300;
+}
+
+.opinion-text > p {
+  font-style: italic;
+  font-size: 30px;
+}
+
+.opinion-text > h3 {
+  font-size: 18px;
+  padding-bottom: 45px;
+}
+
+.nav-dots {
+  width: 100%;
+  bottom: 11px;
+  height: 15px;
+  display: block;
+  text-align: center;
+}
+
+.nav-dots .nav-dot {
+  vertical-align: middle;
+  width: 12px;
+  height: 12px;
+  margin: 0 7px;
+  position: relative;
+  border-radius: 100%;
+  display: inline-block;
+  background-color: #748184;
+}
+
+.nav-dots .nav-dot:hover {
+  cursor: pointer;
+  background-color: #fff;
+  transition: all .3s;
+}
+
+.nav-dots .active {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+}
+
+/* Section map */
+.section-map {
+  padding-top: 70px;
+  padding-bottom: 200px;
+}
+
+.map-head h2 {
+  padding-bottom: 90px;
+}
+
+.map-location {
+  background-color: #f7f7f7;
+
+  padding: 25px 20px;
+
+  border-bottom: 5px solid #e2e2e2;
+}

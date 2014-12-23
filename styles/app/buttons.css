@@ -1,0 +1,43 @@
+.btn {
+  text-decoration: none;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.btn-white {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-white:hover {
+  background-color: #fff;
+  color: #30788b;
+}
+
+.btn-filled {
+  border-color: #30788b;
+  background-color: #30788b;
+  color: #fff;
+}
+
+.btn-filled:hover {
+  background-color: transparent;
+  color: #30788b;
+}
+
+.btn-getstarted {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 18px;
+
+  padding: 20px 80px;
+}
+
+.btn-getstarted:hover {
+  color: #fff;
+  background-color: #276171;
+  border-color: #276171;
+}
+
+.btn-getstarted:active {
+  border: 1px solid #fff;
+}
