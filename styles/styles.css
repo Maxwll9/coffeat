@@ -101,17 +101,30 @@ h1, h2, h3 {
 }
 
 .features-image .fa {
+  transition: all .3s;
   font-size: 60px;
   width: 60px;
   height: 60px;
   color: #30788b;
 }
 
+.features-block {
+  transition: all .3s;
+}
+
+.features-block:hover {
+  margin-bottom: -20px;
+}
+
 .features-block:hover .features-image {
   background-color: #30788b;
+  margin-bottom: 10px;
 }
 
 .features-block:hover .features-image .fa {
+  width: 70px;
+  height: 70px;
+  font-size: 70px;
   color: #fff;
 }
 
