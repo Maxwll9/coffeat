@@ -41,3 +41,13 @@
 .btn-getstarted:active {
   border: 1px solid #fff;
 }
+
+.btn-footer {
+  font-family: "Lato", Arial, sans-serif;
+  color: #9c9c9c;
+  font-size: 18px;
+}
+
+.btn-footer:hover {
+  color: #000;
+}

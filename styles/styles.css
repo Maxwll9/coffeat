@@ -89,7 +89,8 @@ h1, h2, h3 {
 
 /* Section features */
 .section-features {
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 90px;
 }
 
 .features-image {
@@ -98,33 +99,21 @@ h1, h2, h3 {
   display: inline-block;
   border-radius: 50%;
   border: 3px solid #000;
+  margin-bottom: 10px;
 }
 
 .features-image .fa {
-  transition: all .3s;
   font-size: 60px;
   width: 60px;
   height: 60px;
   color: #30788b;
 }
 
-.features-block {
-  transition: all .3s;
-}
-
-.features-block:hover {
-  margin-bottom: -20px;
-}
-
 .features-block:hover .features-image {
   background-color: #30788b;
-  margin-bottom: 10px;
 }
 
 .features-block:hover .features-image .fa {
-  width: 70px;
-  height: 70px;
-  font-size: 70px;
   color: #fff;
 }
 
@@ -262,8 +251,6 @@ h1, h2, h3 {
 }
 
 .nav-dots .active {
-  width: 15px;
-  height: 15px;
   background-color: #fff;
 }
 
@@ -271,6 +258,21 @@ h1, h2, h3 {
 .section-map {
   padding-top: 70px;
   padding-bottom: 200px;
+}
+
+@media (max-width: 768px) {
+  .section-map .container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .section-map .container .row {
+    padding: 0;
+  }
+
+  .map-address {
+    padding-top: 35px;
+  }
 }
 
 .map-head h2 {
@@ -283,4 +285,52 @@ h1, h2, h3 {
   padding: 25px 20px;
 
   border-bottom: 5px solid #e2e2e2;
+}
+
+.map-geo img {
+  width: 100%;
+  height: auto;
+  max-height: 450px;
+}
+
+.map-list {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.map-item {
+  padding-right: 60px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #2497b6;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.map-num {
+  display: block;
+  font-weight: 700;
+  float: left;
+  width: 35px;
+  height: 35px;
+  color: #fff;
+  background-color: #2497b6;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.map-address {
+  font-size: 16px;
+  font-weight: 300;
+  color: #99a3b1;
+  padding-left: 50px;
+}
+
+/* Section footer */
+.section-footer {
+  padding: 40px 0;
+  background-color: #f7f7f7;
+  border-top: 1px solid #e2e2e2;
 }
